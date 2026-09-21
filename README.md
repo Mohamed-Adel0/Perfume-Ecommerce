@@ -1,16 +1,101 @@
-# React + Vite
+# Perfume E-Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive perfume e-commerce website built with React.js based on the client's requirements and Figma design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Responsive perfume products layout
+* Product Details page
+* Product quantity control
+* Dynamic total price calculation
+* Add to Bag functionality
+* Dynamic Bag item counter
+* Sticky Navbar with scroll behavior
+* Smooth scrolling between sections
+* Responsive design for desktop and mobile
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Vite
+* JavaScript
+* CSS
+* Figma
+* Figma MCP
+* VS Code AI Agent
+* Git & GitHub
 
-## Expanding the ESLint configuration
+## AI-Assisted Development Workflow
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The project was developed based on the client's requirements and Figma design using an AI-assisted workflow with **Figma MCP and VS Code AI Agent**.
+
+```text
+Client Requirements
+        ↓
+Analyze Requirements
+        ↓
+Figma Design
+        ↓
+Connect Figma MCP
+        ↓
+VS Code AI Agent
+        ↓
+Analyze Design & Generate React Structure
+        ↓
+Implement UI & Functionality
+        ↓
+Run & Test the Application
+        ↓
+Refine & Fix Issues with AI Agent
+        ↓
+npm run build
+        ↓
+GitHub
+```
+
+### Workflow Details
+
+1. **Requirements**
+
+   * Understand the client's requested features and behavior.
+
+2. **Figma**
+
+   * Use the provided Figma design as the visual reference.
+
+3. **Figma MCP**
+
+   * Connect Figma with the development environment so the AI Agent can inspect the design.
+
+4. **VS Code AI Agent**
+
+   * Ask the Agent to implement the design in the existing React project.
+   * Create and modify components and files according to the requirements.
+   * Implement interactive functionality such as navigation, shopping bag, quantity control, and price calculation.
+
+5. **Testing & Refinement**
+
+   * Run the application and verify the UI and functionality.
+   * Give the AI Agent additional instructions to fix issues or improve specific behaviors without changing unrelated parts.
+
+6. **Build & Submission**
+
+   * Run `npm run build` to verify that the project builds successfully.
+   * Push the final source code to GitHub.
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Author
+
+**Mohamed Adel**
